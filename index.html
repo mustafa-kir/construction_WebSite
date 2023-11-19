@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <!-- Gerekli kütüphaneler import yapıldı  --> 
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>İnşaat</title>
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules\font-awesome\css\font-awesome.min.css">
+    <link rel="stylesheet" href="Content\site.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+
+    <!-- Javascripts -->
+    <script src="node_modules\jquery\dist\jquery.min.js"></script>
+    <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="foto/logo.png" /></a>
+        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Menü"> <span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-ig-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Anasayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Hizmetlerimiz.html">Hizmetlerimiz</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ileisim.html">İletişim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Video.html">Videomuz</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+   
+
+    <div class="container-fluid">
+
+        
+        <div class="row">
+            <div class="container-fluid">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselId" data-slide-to="1"></li>
+                        <li data-target="#carouselId" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="slide" src="foto/slider2.jpeg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="slide" src="foto/slider3.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="slide" src="foto/slider4.jpeg" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-10 mt-5 offset-md-1">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="imgBox mt-3">
+                                <img class="resim" src="foto/resim1.jpg">
+                            </div>
+                            <div class="card-body mt-5">
+                                <h4 class="card-title text-center">
+                                    <a href="product.html" target="blank">Avcılar 2+1 Satılık Daire</a>
+                                    <div class="col-md-12 ">
+                                        <h2 class="text-danger">400.000 ₺</h2>
+                                    </div>
+                                </h4>
+                                <p class="card-text text-justify">
+
+                                </p>
+                                <a href="tel://05365602361" class="btn btn-success btn-sm">
+                                    <span class="fa fa-phone mr-2"></span>İletişim
+                                </a>
+                                <a href="#" class="btn btn-info btn-sm pull-right" data-toggle="modal"
+                                    data-target="#productInfoModal">
+                                    <span class="fa fa-info-circle mr-2"></span>Bilgi
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="imgBox mt-3">
+                                <img class="resim" src="foto/resim2.jpg">
+                            </div>
+                            <div class="card-body mt-5">
+                                <h4 class="card-title text-center">
+                                    <a href="product.html" target="blank">Esenyurt Satılık 3+1 Daire</a>
+                                    <div class="col-md-12 ">
+                                        <h2 class="text-danger">350.000 ₺</h2>
+                                    </div>
+                                </h4>
+                                <p class="card-text text-justify">
+
+                                </p>
+                                <a href="tel://05365602361" class="btn btn-success btn-sm">
+                                    <span class="fa fa-phone mr-2"></span>İletişim
+                                </a>
+                                <a href="#" class="btn btn-info btn-sm pull-right" data-toggle="modal"
+                                    data-target="#productInfoModal2">
+                                    <span class="fa fa-info-circle mr-2"></span>Bilgi
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="imgBox mt-3">
+                                <img class="resim" src="foto/resim3.jpg">
+                            </div>
+                            <div class="card-body mt-5">
+                                <h4 class="card-title text-center">
+                                    <a href="product.html" target="blank">Beylikdüzü Satılık 4+2 Daire</a>
+                                    <div class="col-md-12 ">
+                                        <h2 class="text-danger">750.000 ₺</h2>
+                                    </div>
+                                </h4>
+                                <p class="card-text text-justify">
+
+                                </p>
+                                <a href="tel://05365602361" class="btn btn-success btn-sm">
+                                    <span class="fa fa-phone mr-2"></span>İletişim
+                                </a>
+                                <a href="#" class="btn btn-info btn-sm pull-right" data-toggle="modal"
+                                    data-target="#productInfoModal3">
+                                    <span class="fa fa-info-circle mr-2"></span>Bilgi
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+
+
+                    
+
+                </div>
+
+                
+                <div class="modal fade" id="productInfoModal" tabindex="-1" role="dialog" data-backdrop="static"
+                    aria-labelledby="editModalTitle" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title" id="editModalTitle">Bilgi</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row my-2">
+                                    <div class="col-md-12">
+                                        <h4 class="text-danger">Açıklama :</h4>
+                                        <h6>Kıroğlu İnşaat<br>
+                                           Avcılar'da 2020 Şubat yapımı İsyanlı 2+1, 100 metre kare Lüks Daire <br> Detaylı bilgi için Arayın </h6>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12 text-right">
+                                        <b>Fiyatı : 400.000 ₺</b>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <a href="tel://05365602361" class="btn btn-success btn-sm">
+                                    <span class="fa fa-phone mr-2"></span>İletişim
+                                </a>
+                                <button type="button" class="btn btn-sm" data-dismiss="modal">
+                                    <span class="fa fa-close mr-2"></span>Kapat
+                                </button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="productInfoModal2" tabindex="-1" role="dialog" data-backdrop="static"
+                    aria-labelledby="editModalTitle" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title" id="editModalTitle">Bilgi</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row my-2">
+                                    <div class="col-md-12">
+                                        <h4 class="text-danger">Açıklama :</h4>
+                                        <h6>Kıroğlu İnşaat<br>
+                                            Esenyurt'da 2020 Mart yapımı İsyanlı 3+1, 75 metre kare Lüks Daire <br> Detaylı bilgi için Arayın </h6>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12 text-right">
+                                        <b>Fiyatı : 350.000 ₺</b>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <a href="tel://05365602361" class="btn btn-success btn-sm">
+                                    <span class="fa fa-phone mr-2"></span>deneme
+                                </a>
+                                <button type="button" class="btn btn-sm" data-dismiss="modal">
+                                    <span class="fa fa-close mr-2"></span>Kapat
+                                </button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="productInfoModal3" tabindex="-1" role="dialog" data-backdrop="static"
+                aria-labelledby="editModalTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="editModalTitle">Bilgi</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row my-2">
+                                <div class="col-md-12">
+                                    <h4 class="text-danger">Açıklama :</h4>
+                                    <h6>Kıroğlu İnşaat<br>
+                                        Beylikdüzü'nde 2020 Aralık yapımı İsyanlı 4+2, 150 metre kare Lüks Daire <br> Detaylı bilgi için Arayın </h6>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12 text-right">
+                                    <b>Fiyatı : 750.000 ₺</b>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <a href="tel://05365602361" class="btn btn-success btn-sm">
+                                <span class="fa fa-phone mr-2"></span>deneme
+                            </a>
+                            <button type="button" class="btn btn-sm" data-dismiss="modal">
+                                <span class="fa fa-close mr-2"></span>Kapat
+                            </button>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+                
+                <div class="card card-default text-center">
+                    <div class="card-body">
+                        <h5 class="card-title text-muted"><img src="foto/logo.png" /></h5>
+                        <div>
+                            <a href="https://twitter.com/?lang=tr" class="btn text-primary">
+                                <span class="fa fa-twitter fa-2x"></span>
+                            </a>
+                            <a href="https://www.instagram.com/?hl=tr" class="btn text-danger">
+                                <span class="fa fa-instagram fa-2x"></span>
+                            </a>
+                            <a href="https://www.facebook.com/KIROGLU-IN%C5%9EAAT-414388685403086/" class="btn text-primary">
+                                <span class="fa fa-facebook fa-2x"></span>
+                            </a>
+                        </div>
+                        <a href="mailto://mustafaof17@gmail.com" class="btn btn-info btn-sm">
+                            <span class="fa fa-at mr-2"></span>E-Posta Gönder
+                        </a>
+                    </div>
+                </div>
+                
+                
+
+</body>
+
+</html>
